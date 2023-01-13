@@ -1,7 +1,7 @@
 import React from "react";
-import amazon from "../assets/portfolio/amazon.jpg";
-import netflix from "../assets/portfolio/netflix.jpg";
-import foa from "../assets/portfolio/foa.jpg";
+import amazon from "../assets/projects/amazon.jpg";
+import netflix from "../assets/projects/netflix.jpg";
+import foa from "../assets/projects/foa.jpg";
 
 const Projects = () => {
   const Projects = [
