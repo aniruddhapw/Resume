@@ -45,30 +45,31 @@ const Experience = () => {
       id: 6,
       src: nextjs,
       title: "Next JS",
-      style: "shadow-white",
+      style: "shadow-black",
     },
     {
       id: 7,
       src: bootstrap,
       title: "Bootstrap",
-      style: "shadow-indigo-500/50",
+      style: "shadow-indigo-500",
     },
     {
       id: 8,
       src: github,
       title: "GitHub",
-      style: "shadow-gray-400",
+      style: "shadow-gray-500",
     },
   ];
 
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      // className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="w-full h-screen bg-white text-black"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-black">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <p className="text-4xl font-bold border-b-4  border-gray-500 p-2 inline">
             Skills
           </p>
           <p className="py-6">These are the technologies I've worked with</p>

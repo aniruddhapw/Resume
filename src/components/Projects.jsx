@@ -26,10 +26,7 @@ const Projects = () => {
   };
 
   return (
-    <div
-      name="projects"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
-    >
+    <div name="projects" className="bg-white w-full text-black md:h-screen">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
@@ -50,13 +47,13 @@ const Projects = () => {
               <div className="flex items-center justify-center">
                 <button
                   onClick={handleClick}
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:font-bold"
                 >
                   Demo
                 </button>
                 <button
                   onClick={handleClick1}
-                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 hover:font-bold"
                 >
                   Code
                 </button>
