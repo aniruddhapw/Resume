@@ -20,13 +20,13 @@ const Contact = () => {
             className=" flex flex-col w-full md:w-1/2"
           >
             <input
-              type="email"
+              type="text"
               name="name"
               placeholder="Enter your name"
               className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
             />
             <input
-              type="text"
+              type="email"
               name="email"
               placeholder="Enter your email"
               className="my-4 p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
