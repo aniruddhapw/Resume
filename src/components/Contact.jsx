@@ -20,7 +20,7 @@ const Contact = () => {
             className=" flex flex-col w-full md:w-1/2"
           >
             <input
-              type="text"
+              type="email"
               name="name"
               placeholder="Enter your name"
               className="p-2 bg-transparent border-2 rounded-md text-black focus:outline-none"
